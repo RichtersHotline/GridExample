@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after {
+margin:0;
+padding: 0;
+box-sizing:border-box;
+
+}
+.container {
+
+
+}
+.Shoptainer {
+display:grid;
+border:1px solid black;
+padding:10px;
+grid-template-columns: repeat(4, 1fr);
+background-color:wheat;
+
+}
+.Shoptainer2 {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color:wheat;
+    
+    }
+.Item1 {
+background-color:beige;
+grid-column-start:1;
+grid-column-end:4;
+font-size:20px;
+
+}
+.Item2 {
+    background-color:beige;
+
+    font-size:20px;
+}
+.Item3 {
+    background-color:orange;
+   grid-column-start:4z;
+    font-size:20px;
+}
